@@ -4,161 +4,6 @@
  "appVersion": "1.1.45",
  "apps": [
   {
-   "id": "aenu.aps3e",
-   "url": "https://github.com/aenu1/aps3e",
-   "author": "aenu1",
-   "name": "aPS3e",
-   "preferredApkIndex": 0,
-   "additionalSettings": "{\"includePrereleases\":false,\"fallbackToOlderReleases\":true,\"filterReleaseTitlesByRegEx\":\"\",\"filterReleaseNotesByRegEx\":\"\",\"verifyLatestTag\":false,\"sortMethodChoice\":\"date\",\"useLatestAssetDateAsReleaseDate\":false,\"releaseTitleAsVersion\":false,\"github-creds\":\"\",\"GHReqPrefix\":\"\",\"trackOnly\":false,\"versionExtractionRegEx\":\"\",\"matchGroupToUse\":\"\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"appName\":\"\",\"appAuthor\":\"\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"about\":\"PS3 emulator for Android\",\"refreshBeforeDownload\":false,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\"}",
-   "categories": [
-    "Emulator"
-   ],
-   "allowIdChange": false,
-   "overrideSource": "GitHub"
-  },
-  {
-   "id": "org.azahar_emu.azahar",
-   "url": "https://github.com/azahar-emu/azahar",
-   "author": "azahar-emu",
-   "name": "Azahar",
-   "preferredApkIndex": 0,
-   "additionalSettings": "{\"includePrereleases\":false,\"fallbackToOlderReleases\":true,\"filterReleaseTitlesByRegEx\":\"\",\"filterReleaseNotesByRegEx\":\"\",\"verifyLatestTag\":false,\"sortMethodChoice\":\"date\",\"useLatestAssetDateAsReleaseDate\":false,\"releaseTitleAsVersion\":false,\"github-creds\":\"\",\"GHReqPrefix\":\"\",\"trackOnly\":false,\"versionExtractionRegEx\":\"(.+)\",\"matchGroupToUse\":\"$1-vanilla\",\"versionDetection\":false,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"vanilla\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"appName\":\"\",\"appAuthor\":\"\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"about\":\"Nintendo 3DS emulator\",\"refreshBeforeDownload\":false,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\"}",
-   "categories": [
-    "Emulator"
-   ],
-   "allowIdChange": true,
-   "overrideSource": "GitHub"
-  },
-  {
-   "id": "org.dolphinemu.dolphinemu",
-   "url": "https://dolphin-emu.org/download/?ref=btn",
-   "author": "dolphin-emu.org",
-   "name": "Dolphin Emulator",
-   "preferredApkIndex": 0,
-   "additionalSettings": "{\"intermediateLink\":[],\"customLinkFilterRegex\":\"https:\\\\/\\\\/dl.dolphin-emu.org\\\\/releases.+dolphin.+.apk\",\"filterByLinkText\":false,\"matchLinksOutsideATags\":false,\"skipSort\":false,\"reverseSort\":false,\"sortByLastLinkSegment\":true,\"versionExtractWholePage\":false,\"requestHeader\":[{\"requestHeader\":\"User-Agent: Obtainium/1.0\"}],\"defaultPseudoVersioningMethod\":\"partialAPKHash\",\"trackOnly\":false,\"versionExtractionRegEx\":\"/releases/.+/dolphin-(.+).apk\",\"matchGroupToUse\":\"$1\",\"versionDetection\":false,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"appName\":\"Dolphin Emulator\",\"appAuthor\":\"\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"about\":\"GameCube and Wii emulator\",\"refreshBeforeDownload\":false,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\"}",
-   "categories": [
-    "Emulator"
-   ],
-   "allowIdChange": false,
-   "overrideSource": "HTML"
-  },
-  {
-   "id": "com.github.stenzek.duckstation",
-   "url": "https://duckstation-mirror.rmacias.workers.dev",
-   "author": "duckstation-mirror.rmacias.workers.dev",
-   "name": "DuckStation",
-   "preferredApkIndex": 0,
-   "additionalSettings": "{\"intermediateLink\":[],\"customLinkFilterRegex\":\"\",\"filterByLinkText\":false,\"matchLinksOutsideATags\":false,\"skipSort\":false,\"reverseSort\":false,\"sortByLastLinkSegment\":false,\"versionExtractWholePage\":true,\"requestHeader\":[{\"requestHeader\":\"User-Agent: Obtainium/1.0\"}],\"defaultPseudoVersioningMethod\":\"partialAPKHash\",\"trackOnly\":false,\"versionExtractionRegEx\":\"Version:.*?>([\\\\d][\\\\w.-]+)\",\"matchGroupToUse\":\"$1\",\"versionDetection\":false,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"appName\":\"Duckstation \",\"appAuthor\":\"stenzek \",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"about\":\"PlayStation 1 emulator\",\"refreshBeforeDownload\":false,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\"}",
-   "categories": [
-    "Emulator"
-   ],
-   "allowIdChange": false,
-   "overrideSource": "HTML"
-  },
-  {
-   "id": "dev.eden.eden_emulator",
-   "url": "https://stable.eden-emu.dev/latest/release.json",
-   "author": "eden-emu",
-   "name": "Eden",
-   "preferredApkIndex": 0,
-   "additionalSettings": "{\"intermediateLink\":[],\"customLinkFilterRegex\":\"Eden-Android-.*-standard\\\\.apk$\",\"filterByLinkText\":false,\"matchLinksOutsideATags\":true,\"skipSort\":false,\"reverseSort\":false,\"sortByLastLinkSegment\":false,\"versionExtractWholePage\":true,\"requestHeader\":[{\"requestHeader\":\"User-Agent: Obtainium/1.0\"}],\"defaultPseudoVersioningMethod\":\"partialAPKHash\",\"trackOnly\":false,\"versionExtractionRegEx\":\"\\\"tag_name\\\"\\\\s*:\\\\s*\\\"(?:v)?([^\\\"]+)\\\"\",\"matchGroupToUse\":\"$1\",\"versionDetection\":false,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"appName\":\"Eden\",\"appAuthor\":\"\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"about\":\"Nintendo Switch emulator\",\"refreshBeforeDownload\":false,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\"}",
-   "categories": [
-    "Emulator"
-   ],
-   "allowIdChange": true,
-   "overrideSource": "HTML"
-  },
-  {
-   "id": "com.flycast.emulator",
-   "url": "https://github.com/flyinghead/flycast",
-   "author": "flyinghead",
-   "name": "Flycast",
-   "preferredApkIndex": 0,
-   "additionalSettings": "{\"includePrereleases\":false,\"fallbackToOlderReleases\":true,\"filterReleaseTitlesByRegEx\":\"\",\"filterReleaseNotesByRegEx\":\"\",\"verifyLatestTag\":false,\"sortMethodChoice\":\"date\",\"useLatestAssetDateAsReleaseDate\":false,\"releaseTitleAsVersion\":false,\"github-creds\":\"\",\"GHReqPrefix\":\"\",\"trackOnly\":false,\"versionExtractionRegEx\":\"v?(.+)\",\"matchGroupToUse\":\"$1\",\"versionDetection\":false,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"appName\":\"\",\"appAuthor\":\"\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"about\":\"Dreamcast, NAOMI, and Atomiswave emulator\",\"refreshBeforeDownload\":false,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\"}",
-   "categories": [
-    "Emulator"
-   ],
-   "allowIdChange": false,
-   "overrideSource": "GitHub"
-  },
-  {
-   "id": "me.magnum.melonds",
-   "url": "https://github.com/rafaelvcaetano/melonDS-android",
-   "author": "rafaelvcaetano",
-   "name": "MelonDS",
-   "additionalSettings": "{\"includePrereleases\":false,\"fallbackToOlderReleases\":true,\"filterReleaseTitlesByRegEx\":\"\",\"filterReleaseNotesByRegEx\":\"\",\"verifyLatestTag\":false,\"sortMethodChoice\":\"date\",\"useLatestAssetDateAsReleaseDate\":false,\"releaseTitleAsVersion\":false,\"github-creds\":\"\",\"GHReqPrefix\":\"\",\"trackOnly\":false,\"versionExtractionRegEx\":\"v?(.+)\",\"matchGroupToUse\":\"$1\",\"versionDetection\":false,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"appName\":\"MelonDS\",\"appAuthor\":\"\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"about\":\"Nintendo DS emulator\",\"refreshBeforeDownload\":false,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\"}",
-   "categories": [
-    "Emulator"
-   ],
-   "allowIdChange": false,
-   "overrideSource": "GitHub"
-  },
-  {
-   "id": "org.ppsspp.ppsspp",
-   "url": "https://www.ppsspp.org/download/",
-   "author": "www.ppsspp.org",
-   "name": "PPSSPP",
-   "preferredApkIndex": 0,
-   "additionalSettings": "{\"intermediateLink\":[],\"customLinkFilterRegex\":\"\\\\/[0-9]+(?:_[0-9]+){1,2}\\\\/ppsspp\\\\.apk$\",\"filterByLinkText\":false,\"matchLinksOutsideATags\":false,\"skipSort\":false,\"reverseSort\":false,\"sortByLastLinkSegment\":false,\"versionExtractWholePage\":false,\"requestHeader\":[{\"requestHeader\":\"User-Agent: Obtainium/1.0\"}],\"defaultPseudoVersioningMethod\":\"APKLinkHash\",\"trackOnly\":false,\"versionExtractionRegEx\":\"\\\\/(?:(?:([0-9]+)_([0-9]+)\\\\/ppsspp\\\\.)|(?:([0-9]+)_([0-9]+)_([0-9]+)\\\\/ppsspp(\\\\.)))apk$\",\"matchGroupToUse\":\"$1$3.$2$4$6$5\",\"versionDetection\":false,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"appName\":\"PPSSPP\",\"appAuthor\":\"\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"about\":\"PPSSPP is an open source, fast and portable PSP emulator\",\"refreshBeforeDownload\":false,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\"}",
-   "categories": [
-    "Emulator"
-   ],
-   "allowIdChange": false,
-   "overrideSource": "HTML"
-  },
-  {
-   "id": "net.rpcsx",
-   "url": "https://github.com/RPCSX/rpcsx-ui-android",
-   "author": "RPCSX",
-   "name": "RPCSX",
-   "preferredApkIndex": 0,
-   "additionalSettings": "{\"includePrereleases\":false,\"fallbackToOlderReleases\":true,\"filterReleaseTitlesByRegEx\":\"\",\"filterReleaseNotesByRegEx\":\"\",\"verifyLatestTag\":false,\"sortMethodChoice\":\"date\",\"useLatestAssetDateAsReleaseDate\":false,\"releaseTitleAsVersion\":false,\"github-creds\":\"\",\"GHReqPrefix\":\"\",\"trackOnly\":false,\"versionExtractionRegEx\":\"\",\"matchGroupToUse\":\"\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"appName\":\"\",\"appAuthor\":\"\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"about\":\"PlayStation 4 emulator\",\"refreshBeforeDownload\":false,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\"}",
-   "categories": [
-    "Emulator"
-   ],
-   "allowIdChange": false,
-   "overrideSource": "GitHub"
-  },
-  {
-   "id": "me.magnum.melondualds",
-   "url": "https://github.com/SapphireRhodonite/WatermelonDS",
-   "author": "SapphireRhodonite",
-   "name": "WatermelonDS",
-   "preferredApkIndex": 0,
-   "additionalSettings": "{\"includePrereleases\":false,\"fallbackToOlderReleases\":true,\"filterReleaseTitlesByRegEx\":\"\",\"filterReleaseNotesByRegEx\":\"\",\"verifyLatestTag\":false,\"sortMethodChoice\":\"date\",\"useLatestAssetDateAsReleaseDate\":false,\"releaseTitleAsVersion\":false,\"github-creds\":\"\",\"GHReqPrefix\":\"\",\"trackOnly\":false,\"versionExtractionRegEx\":\"v?(.+)\",\"matchGroupToUse\":\"$1\",\"versionDetection\":false,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"appName\":\"WatermelonDS\",\"appAuthor\":\"\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"about\":\"Nintendo DS emulator\",\"refreshBeforeDownload\":false,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\"}",
-   "categories": [
-    "Emulator"
-   ],
-   "allowIdChange": true,
-   "overrideSource": "GitHub"
-  },
-  {
-   "id": "info.cemu.cemu",
-   "url": "https://github.com/sapphirerhodonite/cemu",
-   "author": "SapphireRhodonite",
-   "name": "Cemu",
-   "preferredApkIndex": 0,
-   "additionalSettings": "{\"includePrereleases\":false,\"fallbackToOlderReleases\":true,\"filterReleaseTitlesByRegEx\":\"\",\"filterReleaseNotesByRegEx\":\"\",\"verifyLatestTag\":false,\"sortMethodChoice\":\"date\",\"useLatestAssetDateAsReleaseDate\":false,\"releaseTitleAsVersion\":true,\"github-creds\":\"\",\"GHReqPrefix\":\"\",\"trackOnly\":false,\"versionExtractionRegEx\":\"\",\"matchGroupToUse\":\"\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"appName\":\"Cemu (Dual-Screen)\",\"appAuthor\":\"\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"about\":\"Wii U emulator\",\"refreshBeforeDownload\":false,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\"}",
-   "categories": [
-    "Emulator"
-   ],
-   "allowIdChange": false,
-   "overrideSource": "GitHub"
-  },
-  {
-   "id": "org.vita3k.emulator",
-   "url": "https://github.com/Vita3K/Vita3K-builds",
-   "author": "Vita3K",
-   "name": "Vita3K",
-   "preferredApkIndex": 0,
-   "additionalSettings": "{\"includePrereleases\":false,\"fallbackToOlderReleases\":true,\"filterReleaseTitlesByRegEx\":\"\",\"filterReleaseNotesByRegEx\":\"\",\"verifyLatestTag\":true,\"sortMethodChoice\":\"date\",\"useLatestAssetDateAsReleaseDate\":false,\"releaseTitleAsVersion\":false,\"github-creds\":\"\",\"GHReqPrefix\":\"\",\"trackOnly\":false,\"versionExtractionRegEx\":\"\",\"matchGroupToUse\":\"\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"appName\":\"\",\"appAuthor\":\"\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"about\":\"PlayStation Vita emulator\",\"refreshBeforeDownload\":false,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\"}",
-   "categories": [
-    "Emulator"
-   ],
-   "allowIdChange": false,
-   "overrideSource": "GitHub"
-  },
-  {
    "id": "com.iisulauncher",
    "url": "https://github.com/iisu-network/iiSU",
    "author": "iisu-network",
@@ -172,97 +17,6 @@
    "overrideSource": "GitHub"
   },
   {
-   "id": "com.izzy2lost.x1box",
-   "url": "https://github.com/izzy2lost/xemu",
-   "author": "izzy2lost",
-   "name": "Xemu Android",
-   "preferredApkIndex": 0,
-   "additionalSettings": "{\"includePrereleases\":false,\"fallbackToOlderReleases\":true,\"filterReleaseTitlesByRegEx\":\"\",\"filterReleaseNotesByRegEx\":\"\",\"verifyLatestTag\":false,\"sortMethodChoice\":\"date\",\"useLatestAssetDateAsReleaseDate\":false,\"releaseTitleAsVersion\":false,\"github-creds\":\"\",\"GHReqPrefix\":\"\",\"trackOnly\":false,\"versionExtractionRegEx\":\"\",\"matchGroupToUse\":\"\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"appName\":\"X1 BOX\",\"appAuthor\":\"\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"about\":\"\",\"refreshBeforeDownload\":false,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\"}",
-   "categories": [
-    "Emulator"
-   ],
-   "allowIdChange": false,
-   "overrideSource": "GitHub"
-  },
-  {
-   "id": "com.rfandango.haku_x",
-   "url": "https://github.com/rfandango/hakuX",
-   "author": "rfandango",
-   "name": "Hakux",
-   "preferredApkIndex": 0,
-   "additionalSettings": "{\"includePrereleases\":false,\"fallbackToOlderReleases\":true,\"filterReleaseTitlesByRegEx\":\"\",\"filterReleaseNotesByRegEx\":\"\",\"verifyLatestTag\":false,\"sortMethodChoice\":\"date\",\"useLatestAssetDateAsReleaseDate\":false,\"releaseTitleAsVersion\":false,\"github-creds\":\"\",\"GHReqPrefix\":\"\",\"trackOnly\":false,\"versionExtractionRegEx\":\"\",\"matchGroupToUse\":\"\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"appName\":\"\",\"appAuthor\":\"\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"about\":\"\",\"refreshBeforeDownload\":false,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\"}",
-   "categories": [
-    "Emulator"
-   ],
-   "allowIdChange": false,
-   "overrideSource": "GitHub"
-  },
-  {
-   "id": "com.armsx2",
-   "url": "https://github.com/ARMSX2/ARMSX2",
-   "author": "ARMSX2",
-   "name": "ARMSX2",
-   "preferredApkIndex": 0,
-   "additionalSettings": "{\"includePrereleases\":false,\"fallbackToOlderReleases\":true,\"filterReleaseTitlesByRegEx\":\"\",\"filterReleaseNotesByRegEx\":\"\",\"verifyLatestTag\":true,\"sortMethodChoice\":\"date\",\"useLatestAssetDateAsReleaseDate\":false,\"releaseTitleAsVersion\":false,\"github-creds\":\"\",\"GHReqPrefix\":\"\",\"trackOnly\":false,\"versionExtractionRegEx\":\"\",\"matchGroupToUse\":\"\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"appName\":\"\",\"appAuthor\":\"\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"about\":\"PlayStation 2 emulator\",\"refreshBeforeDownload\":false,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\"}",
-   "categories": [
-    "Emulator"
-   ],
-   "allowIdChange": false,
-   "overrideSource": "GitHub"
-  },
-  {
-   "id": "org.citron.citron_emu",
-   "url": "https://github.com/citron-neo/emulator",
-   "author": "citron-neo",
-   "name": "Citron Neo",
-   "preferredApkIndex": 0,
-   "additionalSettings": "{\"includePrereleases\":false,\"fallbackToOlderReleases\":true,\"filterReleaseTitlesByRegEx\":\"\",\"filterReleaseNotesByRegEx\":\"\",\"verifyLatestTag\":false,\"sortMethodChoice\":\"date\",\"useLatestAssetDateAsReleaseDate\":false,\"releaseTitleAsVersion\":false,\"github-creds\":\"\",\"GHReqPrefix\":\"\",\"trackOnly\":false,\"versionExtractionRegEx\":\"\",\"matchGroupToUse\":\"\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"appName\":\"Citron Neo\",\"appAuthor\":\"\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"about\":\"\",\"refreshBeforeDownload\":false,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\"}",
-   "categories": [
-    "Emulator"
-   ],
-   "allowIdChange": false,
-   "overrideSource": "GitHub"
-  },
-  {
-   "id": "xendroid.compose",
-   "url": "https://github.com/rfandango/XenDroid",
-   "author": "rfandango",
-   "name": "Xendroid",
-   "preferredApkIndex": 0,
-   "additionalSettings": "{\"includePrereleases\":false,\"fallbackToOlderReleases\":true,\"filterReleaseTitlesByRegEx\":\"\",\"filterReleaseNotesByRegEx\":\"\",\"verifyLatestTag\":false,\"sortMethodChoice\":\"date\",\"useLatestAssetDateAsReleaseDate\":false,\"releaseTitleAsVersion\":false,\"github-creds\":\"\",\"GHReqPrefix\":\"\",\"trackOnly\":false,\"versionExtractionRegEx\":\"\",\"matchGroupToUse\":\"\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"appName\":\"\",\"appAuthor\":\"\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"about\":\"\",\"refreshBeforeDownload\":false,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\"}",
-   "categories": [
-    "Emulator"
-   ],
-   "allowIdChange": false,
-   "overrideSource": "GitHub"
-  },
-  {
-   "id": "com.armsx3",
-   "url": "https://github.com/ARMSX2/ARMSX3",
-   "author": "ARMSX2",
-   "name": "ARMSX3",
-   "preferredApkIndex": 0,
-   "additionalSettings": "{\"includePrereleases\":false,\"fallbackToOlderReleases\":true,\"filterReleaseTitlesByRegEx\":\"\",\"filterReleaseNotesByRegEx\":\"\",\"verifyLatestTag\":false,\"sortMethodChoice\":\"date\",\"useLatestAssetDateAsReleaseDate\":false,\"releaseTitleAsVersion\":false,\"github-creds\":\"\",\"GHReqPrefix\":\"\",\"trackOnly\":false,\"versionExtractionRegEx\":\"\",\"matchGroupToUse\":\"\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"appName\":\"\",\"appAuthor\":\"\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"about\":\"\",\"refreshBeforeDownload\":false,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\"}",
-   "categories": [
-    "Emulator"
-   ],
-   "allowIdChange": false,
-   "overrideSource": "GitHub"
-  },
-  {
-   "id": "emu.x360mobile.com",
-   "url": "https://github.com/Ashnar2602/X360-Mobile---OFFICIAL",
-   "author": "Ashnar2602",
-   "name": "X360 Mobile",
-   "preferredApkIndex": 1,
-   "additionalSettings": "{\"includePrereleases\":false,\"fallbackToOlderReleases\":true,\"filterReleaseTitlesByRegEx\":\"\",\"filterReleaseNotesByRegEx\":\"\",\"verifyLatestTag\":false,\"sortMethodChoice\":\"date\",\"useLatestAssetDateAsReleaseDate\":false,\"releaseTitleAsVersion\":false,\"github-creds\":\"\",\"GHReqPrefix\":\"\",\"trackOnly\":false,\"versionExtractionRegEx\":\"\",\"matchGroupToUse\":\"\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"appName\":\"\",\"appAuthor\":\"\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"about\":\"\",\"refreshBeforeDownload\":false,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\"}",
-   "categories": [
-    "Emulator"
-   ],
-   "allowIdChange": false,
-   "overrideSource": "GitHub"
-  },
-  {
    "id": "487343354",
    "url": "https://buildbot.libretro.com/stable",
    "author": "buildbot.libretro.com",
@@ -270,72 +24,46 @@
    "preferredApkIndex": 0,
    "additionalSettings": "{\"intermediateLink\":[{\"customLinkFilterRegex\":\"/stable/\\\\d+\\\\.\\\\d+\\\\.\\\\d+/\",\"filterByLinkText\":false,\"skipSort\":false,\"reverseSort\":false,\"sortByLastLinkSegment\":false},{\"customLinkFilterRegex\":\"/stable/\\\\d+\\\\.\\\\d+\\\\.\\\\d+/android/\",\"filterByLinkText\":false,\"skipSort\":false,\"reverseSort\":false,\"sortByLastLinkSegment\":false}],\"customLinkFilterRegex\":\"/stable/\\\\d+\\\\.\\\\d+\\\\.\\\\d+/android/RetroArch_aarch64.apk\",\"filterByLinkText\":false,\"matchLinksOutsideATags\":false,\"skipSort\":true,\"reverseSort\":false,\"sortByLastLinkSegment\":false,\"versionExtractWholePage\":false,\"requestHeader\":[{\"requestHeader\":\"User-Agent: Obtainium/1.0\"}],\"defaultPseudoVersioningMethod\":\"APKLinkHash\",\"trackOnly\":false,\"versionExtractionRegEx\":\"\\\\d+\\\\.\\\\d+\\\\.\\\\d+\",\"matchGroupToUse\":\"\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"appName\":\"RetroArch AArch64\",\"appAuthor\":\"\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":true,\"skipUpdateNotifications\":true,\"about\":\"Released less frequently. Better stability. \",\"refreshBeforeDownload\":false,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\"}",
    "categories": [
-    "Emulator"
+    "Essential"
    ],
    "allowIdChange": false,
    "overrideSource": "HTML"
   },
   {
-   "id": "476086958",
-   "url": "https://github.com/StevenMXZ/Adreno-Tools-Drivers",
-   "author": "StevenMXZ",
-   "name": "Adreno-Tools-Drivers",
+   "id": "org.azahar_emu.azahar",
+   "url": "https://github.com/azahar-emu/azahar",
+   "author": "azahar-emu",
+   "name": "Azahar",
    "preferredApkIndex": 0,
-   "additionalSettings": "{\"includePrereleases\":false,\"fallbackToOlderReleases\":true,\"filterReleaseTitlesByRegEx\":\"\",\"filterReleaseNotesByRegEx\":\"\",\"verifyLatestTag\":false,\"sortMethodChoice\":\"date\",\"useLatestAssetDateAsReleaseDate\":false,\"releaseTitleAsVersion\":false,\"github-creds\":\"\",\"GHReqPrefix\":\"\",\"trackOnly\":true,\"versionExtractionRegEx\":\"\",\"matchGroupToUse\":\"\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"appName\":\"Adreno Tools Drivers\",\"appAuthor\":\"\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"about\":\"\",\"refreshBeforeDownload\":false,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\"}",
+   "additionalSettings": "{\"includePrereleases\":false,\"fallbackToOlderReleases\":true,\"filterReleaseTitlesByRegEx\":\"\",\"filterReleaseNotesByRegEx\":\"\",\"verifyLatestTag\":false,\"sortMethodChoice\":\"date\",\"useLatestAssetDateAsReleaseDate\":false,\"releaseTitleAsVersion\":false,\"github-creds\":\"\",\"GHReqPrefix\":\"\",\"trackOnly\":false,\"versionExtractionRegEx\":\"(.+)\",\"matchGroupToUse\":\"$1-vanilla\",\"versionDetection\":false,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"vanilla\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"appName\":\"\",\"appAuthor\":\"\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"about\":\"Nintendo 3DS emulator\",\"refreshBeforeDownload\":false,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\"}",
    "categories": [
-    "Track Only"
+    "Essential"
    ],
-   "allowIdChange": false,
+   "allowIdChange": true,
    "overrideSource": "GitHub"
   },
   {
-   "id": "994078275",
-   "url": "https://github.com/MrPurple666/purple-turnip",
-   "author": "MrPurple666",
-   "name": "Mr. Purple Turnip Drivers",
+   "id": "org.dolphinemu.dolphinemu",
+   "url": "https://dolphin-emu.org/download/?ref=btn",
+   "author": "dolphin-emu.org",
+   "name": "Dolphin Emulator",
    "preferredApkIndex": 0,
-   "additionalSettings": "{\"includePrereleases\":false,\"fallbackToOlderReleases\":true,\"filterReleaseTitlesByRegEx\":\"\",\"filterReleaseNotesByRegEx\":\"\",\"verifyLatestTag\":false,\"sortMethodChoice\":\"date\",\"useLatestAssetDateAsReleaseDate\":false,\"releaseTitleAsVersion\":false,\"github-creds\":\"\",\"GHReqPrefix\":\"\",\"trackOnly\":true,\"versionExtractionRegEx\":\"\",\"matchGroupToUse\":\"\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"appName\":\"Mr. Purple Turnip Drivers\",\"appAuthor\":\"\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"about\":\"\",\"refreshBeforeDownload\":false,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\"}",
+   "additionalSettings": "{\"intermediateLink\":[],\"customLinkFilterRegex\":\"https:\\\\/\\\\/dl.dolphin-emu.org\\\\/releases.+dolphin.+.apk\",\"filterByLinkText\":false,\"matchLinksOutsideATags\":false,\"skipSort\":false,\"reverseSort\":false,\"sortByLastLinkSegment\":true,\"versionExtractWholePage\":false,\"requestHeader\":[{\"requestHeader\":\"User-Agent: Obtainium/1.0\"}],\"defaultPseudoVersioningMethod\":\"partialAPKHash\",\"trackOnly\":false,\"versionExtractionRegEx\":\"/releases/.+/dolphin-(.+).apk\",\"matchGroupToUse\":\"$1\",\"versionDetection\":false,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"appName\":\"Dolphin Emulator\",\"appAuthor\":\"\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"about\":\"GameCube and Wii emulator\",\"refreshBeforeDownload\":false,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\"}",
    "categories": [
-    "Track Only"
+    "Essential"
    ],
    "allowIdChange": false,
-   "overrideSource": "GitHub"
+   "overrideSource": "HTML"
   },
   {
-   "id": "767644078",
-   "url": "https://github.com/GlazedBelmont/es-de-android-custom-systems",
-   "author": "GlazedBelmont",
-   "name": "ES-DE Custom Systems",
+   "id": "info.cemu.cemu",
+   "url": "https://github.com/sapphirerhodonite/cemu",
+   "author": "SapphireRhodonite",
+   "name": "Cemu",
    "preferredApkIndex": 0,
-   "additionalSettings": "{\"includePrereleases\":false,\"fallbackToOlderReleases\":true,\"filterReleaseTitlesByRegEx\":\"\",\"filterReleaseNotesByRegEx\":\"\",\"verifyLatestTag\":false,\"sortMethodChoice\":\"date\",\"useLatestAssetDateAsReleaseDate\":false,\"releaseTitleAsVersion\":false,\"github-creds\":\"\",\"GHReqPrefix\":\"\",\"trackOnly\":true,\"versionExtractionRegEx\":\"\",\"matchGroupToUse\":\"\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":false,\"appName\":\"ES-DE Custom Systems\",\"appAuthor\":\"\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"about\":\"\",\"refreshBeforeDownload\":false,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\"}",
+   "additionalSettings": "{\"includePrereleases\":false,\"fallbackToOlderReleases\":true,\"filterReleaseTitlesByRegEx\":\"\",\"filterReleaseNotesByRegEx\":\"\",\"verifyLatestTag\":false,\"sortMethodChoice\":\"date\",\"useLatestAssetDateAsReleaseDate\":false,\"releaseTitleAsVersion\":true,\"github-creds\":\"\",\"GHReqPrefix\":\"\",\"trackOnly\":false,\"versionExtractionRegEx\":\"\",\"matchGroupToUse\":\"\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"appName\":\"Cemu (Dual-Screen)\",\"appAuthor\":\"\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"about\":\"Wii U emulator\",\"refreshBeforeDownload\":false,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\"}",
    "categories": [
-    "Track Only"
-   ],
-   "allowIdChange": false,
-   "overrideSource": "GitHub"
-  },
-  {
-   "id": "com.seleuco.mame4d2024",
-   "url": "https://github.com/seleuco/MAME4droid-Current",
-   "author": "seleuco",
-   "name": "MAME4droid Current",
-   "preferredApkIndex": 0,
-   "additionalSettings": "{\"includePrereleases\": false, \"fallbackToOlderReleases\": true, \"filterReleaseTitlesByRegEx\": \"\", \"filterReleaseNotesByRegEx\": \"\", \"verifyLatestTag\": false, \"sortMethodChoice\": \"date\", \"useLatestAssetDateAsReleaseDate\": false, \"releaseTitleAsVersion\": false, \"github-creds\": \"\", \"GHReqPrefix\": \"\", \"trackOnly\": false, \"versionExtractionRegEx\": \"v?(.+)\", \"matchGroupToUse\": \"$1\", \"versionDetection\": false, \"releaseDateAsVersion\": false, \"useVersionCodeAsOSVersion\": false, \"apkFilterRegEx\": \"\", \"invertAPKFilter\": false, \"autoApkFilterByArch\": true, \"appName\": \"\", \"appAuthor\": \"\", \"shizukuPretendToBeGooglePlay\": false, \"allowInsecure\": false, \"exemptFromBackgroundUpdates\": false, \"skipUpdateNotifications\": false, \"about\": \"\", \"refreshBeforeDownload\": false, \"includeZips\": false, \"zippedApkFilterRegEx\": \"\"}",
-   "categories": [
-    "Emulator"
-   ],
-   "allowIdChange": false,
-   "overrideSource": "GitHub"
-  },
-  {
-   "id": "org.openbor.engine",
-   "url": "https://github.com/DCurrent/openbor",
-   "author": "DCurrent",
-   "name": "OpenBOR",
-   "preferredApkIndex": 0,
-   "additionalSettings": "{\"includePrereleases\": false, \"fallbackToOlderReleases\": true, \"filterReleaseTitlesByRegEx\": \"\", \"filterReleaseNotesByRegEx\": \"\", \"verifyLatestTag\": false, \"sortMethodChoice\": \"date\", \"useLatestAssetDateAsReleaseDate\": false, \"releaseTitleAsVersion\": false, \"github-creds\": \"\", \"GHReqPrefix\": \"\", \"trackOnly\": false, \"versionExtractionRegEx\": \"v?(.+)\", \"matchGroupToUse\": \"$1\", \"versionDetection\": false, \"releaseDateAsVersion\": false, \"useVersionCodeAsOSVersion\": false, \"apkFilterRegEx\": \"\", \"invertAPKFilter\": false, \"autoApkFilterByArch\": true, \"appName\": \"\", \"appAuthor\": \"\", \"shizukuPretendToBeGooglePlay\": false, \"allowInsecure\": false, \"exemptFromBackgroundUpdates\": false, \"skipUpdateNotifications\": false, \"about\": \"\", \"refreshBeforeDownload\": false, \"includeZips\": false, \"zippedApkFilterRegEx\": \"\"}",
-   "categories": [
-    "Emulator"
+    "Essential"
    ],
    "allowIdChange": false,
    "overrideSource": "GitHub"
@@ -348,105 +76,157 @@
    "preferredApkIndex": 0,
    "additionalSettings": "{\"includePrereleases\": false, \"fallbackToOlderReleases\": true, \"filterReleaseTitlesByRegEx\": \"\", \"filterReleaseNotesByRegEx\": \"\", \"verifyLatestTag\": false, \"sortMethodChoice\": \"date\", \"useLatestAssetDateAsReleaseDate\": false, \"releaseTitleAsVersion\": false, \"github-creds\": \"\", \"GHReqPrefix\": \"\", \"trackOnly\": false, \"versionExtractionRegEx\": \"\", \"matchGroupToUse\": \"\", \"versionDetection\": true, \"releaseDateAsVersion\": false, \"useVersionCodeAsOSVersion\": false, \"apkFilterRegEx\": \"\", \"invertAPKFilter\": false, \"autoApkFilterByArch\": true, \"appName\": \"\", \"appAuthor\": \"\", \"shizukuPretendToBeGooglePlay\": false, \"allowInsecure\": false, \"exemptFromBackgroundUpdates\": false, \"skipUpdateNotifications\": false, \"about\": \"\", \"refreshBeforeDownload\": false, \"includeZips\": false, \"zippedApkFilterRegEx\": \"\"}",
    "categories": [
-    "Emulator"
+    "Essential"
    ],
    "allowIdChange": false,
    "overrideSource": "GitHub"
   },
   {
-   "id": "xyz.aethersx2.tturnip",
-   "url": "https://github.com/nckstwrt/NetherSX2-Turnip",
-   "author": "nckstwrt",
-   "name": "NetherSX2 Turnip",
+   "id": "aenu.aps3e",
+   "url": "https://github.com/aenu1/aps3e",
+   "author": "aenu1",
+   "name": "aPS3e",
    "preferredApkIndex": 0,
-   "additionalSettings": "{\"includePrereleases\": false, \"fallbackToOlderReleases\": true, \"filterReleaseTitlesByRegEx\": \"\", \"filterReleaseNotesByRegEx\": \"\", \"verifyLatestTag\": false, \"sortMethodChoice\": \"date\", \"useLatestAssetDateAsReleaseDate\": false, \"releaseTitleAsVersion\": false, \"github-creds\": \"\", \"GHReqPrefix\": \"\", \"trackOnly\": false, \"versionExtractionRegEx\": \"\", \"matchGroupToUse\": \"\", \"versionDetection\": true, \"releaseDateAsVersion\": false, \"useVersionCodeAsOSVersion\": false, \"apkFilterRegEx\": \"\", \"invertAPKFilter\": false, \"autoApkFilterByArch\": true, \"appName\": \"\", \"appAuthor\": \"\", \"shizukuPretendToBeGooglePlay\": false, \"allowInsecure\": false, \"exemptFromBackgroundUpdates\": false, \"skipUpdateNotifications\": false, \"about\": \"\", \"refreshBeforeDownload\": false, \"includeZips\": false, \"zippedApkFilterRegEx\": \"\"}",
+   "additionalSettings": "{\"includePrereleases\":false,\"fallbackToOlderReleases\":true,\"filterReleaseTitlesByRegEx\":\"\",\"filterReleaseNotesByRegEx\":\"\",\"verifyLatestTag\":false,\"sortMethodChoice\":\"date\",\"useLatestAssetDateAsReleaseDate\":false,\"releaseTitleAsVersion\":false,\"github-creds\":\"\",\"GHReqPrefix\":\"\",\"trackOnly\":false,\"versionExtractionRegEx\":\"\",\"matchGroupToUse\":\"\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"appName\":\"\",\"appAuthor\":\"\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"about\":\"PS3 emulator for Android\",\"refreshBeforeDownload\":false,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\"}",
    "categories": [
-    "Emulator"
+    "Essential"
    ],
    "allowIdChange": false,
    "overrideSource": "GitHub"
   },
   {
-   "id": "io.github.gopher64.gopher64",
-   "url": "https://github.com/gopher64/gopher64",
-   "author": "gopher64",
-   "name": "Gopher64",
+   "id": "org.vita3k.emulator",
+   "url": "https://github.com/Vita3K/Vita3K-builds",
+   "author": "Vita3K",
+   "name": "Vita3K",
    "preferredApkIndex": 0,
-   "additionalSettings": "{\"includePrereleases\": false, \"fallbackToOlderReleases\": true, \"filterReleaseTitlesByRegEx\": \"\", \"filterReleaseNotesByRegEx\": \"\", \"verifyLatestTag\": false, \"sortMethodChoice\": \"date\", \"useLatestAssetDateAsReleaseDate\": false, \"releaseTitleAsVersion\": false, \"github-creds\": \"\", \"GHReqPrefix\": \"\", \"trackOnly\": false, \"versionExtractionRegEx\": \"v?(.+)\", \"matchGroupToUse\": \"$1\", \"versionDetection\": false, \"releaseDateAsVersion\": false, \"useVersionCodeAsOSVersion\": false, \"apkFilterRegEx\": \"\", \"invertAPKFilter\": false, \"autoApkFilterByArch\": true, \"appName\": \"\", \"appAuthor\": \"\", \"shizukuPretendToBeGooglePlay\": false, \"allowInsecure\": false, \"exemptFromBackgroundUpdates\": false, \"skipUpdateNotifications\": false, \"about\": \"\", \"refreshBeforeDownload\": false, \"includeZips\": false, \"zippedApkFilterRegEx\": \"\"}",
+   "additionalSettings": "{\"includePrereleases\":false,\"fallbackToOlderReleases\":true,\"filterReleaseTitlesByRegEx\":\"\",\"filterReleaseNotesByRegEx\":\"\",\"verifyLatestTag\":true,\"sortMethodChoice\":\"date\",\"useLatestAssetDateAsReleaseDate\":false,\"releaseTitleAsVersion\":false,\"github-creds\":\"\",\"GHReqPrefix\":\"\",\"trackOnly\":false,\"versionExtractionRegEx\":\"\",\"matchGroupToUse\":\"\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"appName\":\"\",\"appAuthor\":\"\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"about\":\"PlayStation Vita emulator\",\"refreshBeforeDownload\":false,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\"}",
    "categories": [
-    "Emulator"
+    "Essential"
    ],
    "allowIdChange": false,
    "overrideSource": "GitHub"
   },
   {
-   "id": "com.sky.SkyEmu",
-   "url": "https://github.com/skylersaleh/SkyEmu",
-   "author": "skylersaleh",
-   "name": "SkyEmu",
+   "id": "dev.eden.eden_emulator",
+   "url": "https://stable.eden-emu.dev/latest/release.json",
+   "author": "eden-emu",
+   "name": "Eden",
+   "preferredApkIndex": 0,
+   "additionalSettings": "{\"intermediateLink\":[],\"customLinkFilterRegex\":\"Eden-Android-.*-standard\\\\.apk$\",\"filterByLinkText\":false,\"matchLinksOutsideATags\":true,\"skipSort\":false,\"reverseSort\":false,\"sortByLastLinkSegment\":false,\"versionExtractWholePage\":true,\"requestHeader\":[{\"requestHeader\":\"User-Agent: Obtainium/1.0\"}],\"defaultPseudoVersioningMethod\":\"partialAPKHash\",\"trackOnly\":false,\"versionExtractionRegEx\":\"\\\"tag_name\\\"\\\\s*:\\\\s*\\\"(?:v)?([^\\\"]+)\\\"\",\"matchGroupToUse\":\"$1\",\"versionDetection\":false,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"appName\":\"Eden\",\"appAuthor\":\"\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"about\":\"Nintendo Switch emulator\",\"refreshBeforeDownload\":false,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\"}",
+   "categories": [
+    "Essential"
+   ],
+   "allowIdChange": true,
+   "overrideSource": "HTML"
+  },
+  {
+   "id": "com.izzy2lost.x1box",
+   "url": "https://github.com/izzy2lost/xemu",
+   "author": "izzy2lost",
+   "name": "Xemu Android",
+   "preferredApkIndex": 0,
+   "additionalSettings": "{\"includePrereleases\":false,\"fallbackToOlderReleases\":true,\"filterReleaseTitlesByRegEx\":\"\",\"filterReleaseNotesByRegEx\":\"\",\"verifyLatestTag\":false,\"sortMethodChoice\":\"date\",\"useLatestAssetDateAsReleaseDate\":false,\"releaseTitleAsVersion\":false,\"github-creds\":\"\",\"GHReqPrefix\":\"\",\"trackOnly\":false,\"versionExtractionRegEx\":\"\",\"matchGroupToUse\":\"\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"appName\":\"X1 BOX\",\"appAuthor\":\"\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"about\":\"\",\"refreshBeforeDownload\":false,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\"}",
+   "categories": [
+    "Essential"
+   ],
+   "allowIdChange": false,
+   "overrideSource": "GitHub"
+  },
+  {
+   "id": "emu.x360mobile.com",
+   "url": "https://github.com/Ashnar2602/X360-Mobile---OFFICIAL",
+   "author": "Ashnar2602",
+   "name": "X360 Mobile",
    "preferredApkIndex": 1,
-   "additionalSettings": "{\"includePrereleases\": false, \"fallbackToOlderReleases\": true, \"filterReleaseTitlesByRegEx\": \"\", \"filterReleaseNotesByRegEx\": \"\", \"verifyLatestTag\": false, \"sortMethodChoice\": \"date\", \"useLatestAssetDateAsReleaseDate\": false, \"releaseTitleAsVersion\": false, \"github-creds\": \"\", \"GHReqPrefix\": \"\", \"trackOnly\": false, \"versionExtractionRegEx\": \"v?(.+)\", \"matchGroupToUse\": \"$1\", \"versionDetection\": false, \"releaseDateAsVersion\": false, \"useVersionCodeAsOSVersion\": false, \"apkFilterRegEx\": \"\", \"invertAPKFilter\": false, \"autoApkFilterByArch\": true, \"appName\": \"\", \"appAuthor\": \"\", \"shizukuPretendToBeGooglePlay\": false, \"allowInsecure\": false, \"exemptFromBackgroundUpdates\": false, \"skipUpdateNotifications\": false, \"about\": \"\", \"refreshBeforeDownload\": false, \"includeZips\": false, \"zippedApkFilterRegEx\": \"\"}",
+   "additionalSettings": "{\"includePrereleases\":false,\"fallbackToOlderReleases\":true,\"filterReleaseTitlesByRegEx\":\"\",\"filterReleaseNotesByRegEx\":\"\",\"verifyLatestTag\":false,\"sortMethodChoice\":\"date\",\"useLatestAssetDateAsReleaseDate\":false,\"releaseTitleAsVersion\":false,\"github-creds\":\"\",\"GHReqPrefix\":\"\",\"trackOnly\":false,\"versionExtractionRegEx\":\"\",\"matchGroupToUse\":\"\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"appName\":\"\",\"appAuthor\":\"\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"about\":\"\",\"refreshBeforeDownload\":false,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\"}",
    "categories": [
-    "Emulator"
+    "Essential"
    ],
    "allowIdChange": false,
    "overrideSource": "GitHub"
   },
   {
-   "id": "xyz.aethersx2.classic",
-   "url": "https://github.com/Trixarian/NetherSX2-classic",
-   "author": "Trixarian",
-   "name": "NetherSX2 Classic",
-   "preferredApkIndex": 0,
-   "additionalSettings": "{\"includePrereleases\": false, \"fallbackToOlderReleases\": true, \"filterReleaseTitlesByRegEx\": \"\", \"filterReleaseNotesByRegEx\": \"\", \"verifyLatestTag\": false, \"sortMethodChoice\": \"date\", \"useLatestAssetDateAsReleaseDate\": false, \"releaseTitleAsVersion\": false, \"github-creds\": \"\", \"GHReqPrefix\": \"\", \"trackOnly\": false, \"versionExtractionRegEx\": \"\", \"matchGroupToUse\": \"\", \"versionDetection\": true, \"releaseDateAsVersion\": false, \"useVersionCodeAsOSVersion\": false, \"apkFilterRegEx\": \"\", \"invertAPKFilter\": false, \"autoApkFilterByArch\": true, \"appName\": \"\", \"appAuthor\": \"\", \"shizukuPretendToBeGooglePlay\": false, \"allowInsecure\": false, \"exemptFromBackgroundUpdates\": false, \"skipUpdateNotifications\": false, \"about\": \"\", \"refreshBeforeDownload\": false, \"includeZips\": false, \"zippedApkFilterRegEx\": \"\"}",
-   "categories": [
-    "Emulator"
-   ],
-   "allowIdChange": false,
-   "overrideSource": "GitHub"
-  },
-  {
-   "id": "me.magnum.melonds.nightly",
-   "url": "https://github.com/rafaelvcaetano/melonDS-android",
-   "author": "rafaelvcaetano",
-   "name": "MelonDS Nightly",
-   "preferredApkIndex": 0,
-   "additionalSettings": "{\"includePrereleases\": false, \"fallbackToOlderReleases\": true, \"filterReleaseTitlesByRegEx\": \"\", \"filterReleaseNotesByRegEx\": \"\", \"verifyLatestTag\": false, \"sortMethodChoice\": \"date\", \"useLatestAssetDateAsReleaseDate\": false, \"releaseTitleAsVersion\": false, \"github-creds\": \"\", \"GHReqPrefix\": \"\", \"trackOnly\": false, \"versionExtractionRegEx\": \"\", \"matchGroupToUse\": \"\", \"versionDetection\": true, \"releaseDateAsVersion\": false, \"useVersionCodeAsOSVersion\": false, \"apkFilterRegEx\": \"\", \"invertAPKFilter\": false, \"autoApkFilterByArch\": true, \"appName\": \"\", \"appAuthor\": \"\", \"shizukuPretendToBeGooglePlay\": false, \"allowInsecure\": false, \"exemptFromBackgroundUpdates\": false, \"skipUpdateNotifications\": false, \"about\": \"\", \"refreshBeforeDownload\": false, \"includeZips\": false, \"zippedApkFilterRegEx\": \"\"}",
-   "categories": [
-    "Emulator"
-   ],
-   "allowIdChange": false,
-   "overrideSource": "GitHub"
-  },
-  {
-   "id": "io.github.lime3ds.android.debug",
-   "url": "https://github.com/SapphireRhodonite/azahar",
-   "author": "SapphireRhodonite",
-   "name": "AzaharDS (dual-screen)",
-   "preferredApkIndex": 0,
-   "additionalSettings": "{\"includePrereleases\": false, \"fallbackToOlderReleases\": true, \"filterReleaseTitlesByRegEx\": \"\", \"filterReleaseNotesByRegEx\": \"\", \"verifyLatestTag\": false, \"sortMethodChoice\": \"date\", \"useLatestAssetDateAsReleaseDate\": false, \"releaseTitleAsVersion\": false, \"github-creds\": \"\", \"GHReqPrefix\": \"\", \"trackOnly\": false, \"versionExtractionRegEx\": \"\", \"matchGroupToUse\": \"\", \"versionDetection\": true, \"releaseDateAsVersion\": false, \"useVersionCodeAsOSVersion\": false, \"apkFilterRegEx\": \"\", \"invertAPKFilter\": false, \"autoApkFilterByArch\": true, \"appName\": \"\", \"appAuthor\": \"\", \"shizukuPretendToBeGooglePlay\": false, \"allowInsecure\": false, \"exemptFromBackgroundUpdates\": false, \"skipUpdateNotifications\": false, \"about\": \"\", \"refreshBeforeDownload\": false, \"includeZips\": false, \"zippedApkFilterRegEx\": \"\"}",
-   "categories": [
-    "Emulator"
-   ],
-   "allowIdChange": false,
-   "overrideSource": "GitHub"
-  },
-  {
-   "id": "com.seedlessds.app",
-   "url": "https://github.com/SapphireRhodonite/SeedlessDS",
-   "author": "SapphireRhodonite",
-   "name": "SeedlessDS",
+   "id": "org.openbor.engine",
+   "url": "https://github.com/DCurrent/openbor",
+   "author": "DCurrent",
+   "name": "OpenBOR",
    "preferredApkIndex": 0,
    "additionalSettings": "{\"includePrereleases\": false, \"fallbackToOlderReleases\": true, \"filterReleaseTitlesByRegEx\": \"\", \"filterReleaseNotesByRegEx\": \"\", \"verifyLatestTag\": false, \"sortMethodChoice\": \"date\", \"useLatestAssetDateAsReleaseDate\": false, \"releaseTitleAsVersion\": false, \"github-creds\": \"\", \"GHReqPrefix\": \"\", \"trackOnly\": false, \"versionExtractionRegEx\": \"v?(.+)\", \"matchGroupToUse\": \"$1\", \"versionDetection\": false, \"releaseDateAsVersion\": false, \"useVersionCodeAsOSVersion\": false, \"apkFilterRegEx\": \"\", \"invertAPKFilter\": false, \"autoApkFilterByArch\": true, \"appName\": \"\", \"appAuthor\": \"\", \"shizukuPretendToBeGooglePlay\": false, \"allowInsecure\": false, \"exemptFromBackgroundUpdates\": false, \"skipUpdateNotifications\": false, \"about\": \"\", \"refreshBeforeDownload\": false, \"includeZips\": false, \"zippedApkFilterRegEx\": \"\"}",
    "categories": [
-    "Emulator"
+    "Essential"
    ],
    "allowIdChange": false,
    "overrideSource": "GitHub"
+  },
+  {
+   "id": "com.seleuco.mame4d2024",
+   "url": "https://github.com/seleuco/MAME4droid-Current",
+   "author": "seleuco",
+   "name": "MAME4droid Current",
+   "preferredApkIndex": 0,
+   "additionalSettings": "{\"includePrereleases\": false, \"fallbackToOlderReleases\": true, \"filterReleaseTitlesByRegEx\": \"\", \"filterReleaseNotesByRegEx\": \"\", \"verifyLatestTag\": false, \"sortMethodChoice\": \"date\", \"useLatestAssetDateAsReleaseDate\": false, \"releaseTitleAsVersion\": false, \"github-creds\": \"\", \"GHReqPrefix\": \"\", \"trackOnly\": false, \"versionExtractionRegEx\": \"v?(.+)\", \"matchGroupToUse\": \"$1\", \"versionDetection\": false, \"releaseDateAsVersion\": false, \"useVersionCodeAsOSVersion\": false, \"apkFilterRegEx\": \"\", \"invertAPKFilter\": false, \"autoApkFilterByArch\": true, \"appName\": \"\", \"appAuthor\": \"\", \"shizukuPretendToBeGooglePlay\": false, \"allowInsecure\": false, \"exemptFromBackgroundUpdates\": false, \"skipUpdateNotifications\": false, \"about\": \"\", \"refreshBeforeDownload\": false, \"includeZips\": false, \"zippedApkFilterRegEx\": \"\"}",
+   "categories": [
+    "Essential"
+   ],
+   "allowIdChange": false,
+   "overrideSource": "GitHub"
+  },
+  {
+   "id": "me.magnum.melondualds",
+   "url": "https://github.com/SapphireRhodonite/WatermelonDS",
+   "author": "SapphireRhodonite",
+   "name": "WatermelonDS",
+   "preferredApkIndex": 0,
+   "additionalSettings": "{\"includePrereleases\":false,\"fallbackToOlderReleases\":true,\"filterReleaseTitlesByRegEx\":\"\",\"filterReleaseNotesByRegEx\":\"\",\"verifyLatestTag\":false,\"sortMethodChoice\":\"date\",\"useLatestAssetDateAsReleaseDate\":false,\"releaseTitleAsVersion\":false,\"github-creds\":\"\",\"GHReqPrefix\":\"\",\"trackOnly\":false,\"versionExtractionRegEx\":\"v?(.+)\",\"matchGroupToUse\":\"$1\",\"versionDetection\":false,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"appName\":\"WatermelonDS\",\"appAuthor\":\"\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"about\":\"Nintendo DS emulator\",\"refreshBeforeDownload\":false,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\"}",
+   "categories": [
+    "Optional"
+   ],
+   "allowIdChange": true,
+   "overrideSource": "GitHub"
+  },
+  {
+   "id": "org.ppsspp.ppsspp",
+   "url": "https://www.ppsspp.org/download/",
+   "author": "www.ppsspp.org",
+   "name": "PPSSPP",
+   "preferredApkIndex": 0,
+   "additionalSettings": "{\"intermediateLink\":[],\"customLinkFilterRegex\":\"\\\\/[0-9]+(?:_[0-9]+){1,2}\\\\/ppsspp\\\\.apk$\",\"filterByLinkText\":false,\"matchLinksOutsideATags\":false,\"skipSort\":false,\"reverseSort\":false,\"sortByLastLinkSegment\":false,\"versionExtractWholePage\":false,\"requestHeader\":[{\"requestHeader\":\"User-Agent: Obtainium/1.0\"}],\"defaultPseudoVersioningMethod\":\"APKLinkHash\",\"trackOnly\":false,\"versionExtractionRegEx\":\"\\\\/(?:(?:([0-9]+)_([0-9]+)\\\\/ppsspp\\\\.)|(?:([0-9]+)_([0-9]+)_([0-9]+)\\\\/ppsspp(\\\\.)))apk$\",\"matchGroupToUse\":\"$1$3.$2$4$6$5\",\"versionDetection\":false,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"appName\":\"PPSSPP\",\"appAuthor\":\"\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"about\":\"PPSSPP is an open source, fast and portable PSP emulator\",\"refreshBeforeDownload\":false,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\"}",
+   "categories": [
+    "Optional"
+   ],
+   "allowIdChange": false,
+   "overrideSource": "HTML"
+  },
+  {
+   "id": "com.flycast.emulator",
+   "url": "https://github.com/flyinghead/flycast",
+   "author": "flyinghead",
+   "name": "Flycast",
+   "preferredApkIndex": 0,
+   "additionalSettings": "{\"includePrereleases\":false,\"fallbackToOlderReleases\":true,\"filterReleaseTitlesByRegEx\":\"\",\"filterReleaseNotesByRegEx\":\"\",\"verifyLatestTag\":false,\"sortMethodChoice\":\"date\",\"useLatestAssetDateAsReleaseDate\":false,\"releaseTitleAsVersion\":false,\"github-creds\":\"\",\"GHReqPrefix\":\"\",\"trackOnly\":false,\"versionExtractionRegEx\":\"v?(.+)\",\"matchGroupToUse\":\"$1\",\"versionDetection\":false,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"appName\":\"\",\"appAuthor\":\"\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"about\":\"Dreamcast, NAOMI, and Atomiswave emulator\",\"refreshBeforeDownload\":false,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\"}",
+   "categories": [
+    "Optional"
+   ],
+   "allowIdChange": false,
+   "overrideSource": "GitHub"
+  },
+  {
+   "id": "com.github.stenzek.duckstation",
+   "url": "https://duckstation-mirror.rmacias.workers.dev",
+   "author": "duckstation-mirror.rmacias.workers.dev",
+   "name": "DuckStation",
+   "preferredApkIndex": 0,
+   "additionalSettings": "{\"intermediateLink\":[],\"customLinkFilterRegex\":\"\",\"filterByLinkText\":false,\"matchLinksOutsideATags\":false,\"skipSort\":false,\"reverseSort\":false,\"sortByLastLinkSegment\":false,\"versionExtractWholePage\":true,\"requestHeader\":[{\"requestHeader\":\"User-Agent: Obtainium/1.0\"}],\"defaultPseudoVersioningMethod\":\"partialAPKHash\",\"trackOnly\":false,\"versionExtractionRegEx\":\"Version:.*?>([\\\\d][\\\\w.-]+)\",\"matchGroupToUse\":\"$1\",\"versionDetection\":false,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"appName\":\"Duckstation \",\"appAuthor\":\"stenzek \",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"about\":\"PlayStation 1 emulator\",\"refreshBeforeDownload\":false,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\"}",
+   "categories": [
+    "Optional"
+   ],
+   "allowIdChange": false,
+   "overrideSource": "HTML"
   }
  ],
  "settings": {
-  "categories": "{\"Emulator\": 4292386421, \"Frontend\": 4291470692, \"Utilities\": 4292449237}",
+  "categories": "{\"Essential\": 4292386421, \"Optional\": 4293103815, \"Frontend\": 4291470692}",
   "groupBy": "category",
   "onlyCheckInstalledOrTrackOnlyApps": true,
   "buryNonInstalled": false,
